@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IP Location Search</title>
+</head>
+
+<body
+    style="display: grid; place-items: center; height: 100vh; width: 100%;background-color: bisque; text-align: center; color: rgb(112, 112, 112); font-size: 2rem;">
+    <div>
+        <label>Enter your IP Address</label><br /><br />
+        <form action="{{ url_for('location') }}" method="POST">
+            <input type="text" placeholder="IP Address" name="ip_address"
+                style="width: 300px; height: 70px;padding: 1rem; font-size: 2rem" required /><br />
+            <br />
+            <button type="submit" style="cursor: pointer;">SEARCH LOCATION</button>
+        </form>
+    </div>
+</body>
+
+</html>
