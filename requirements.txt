@@ -1,0 +1,22 @@
+autopep8==1.6.0
+backports.entry-points-selectable==1.1.0
+certifi==2021.10.8
+charset-normalizer==2.0.7
+click==8.0.3
+decorator==5.1.0
+distlib==0.3.3
+filelock==3.3.1
+future==0.18.2
+gunicorn==20.1.0
+idna==3.3
+pipenv==2021.5.29
+platformdirs==2.4.0
+pycodestyle==2.8.0
+ratelim==0.1.6
+requests==2.26.0
+route4me @ git+https://github.com/route4me/route4me-python-sdk.git@e2136c54e1ec5ed518f8eb94d5883486e0ec3afd
+six==1.16.0
+toml==0.10.2
+urllib3==1.26.7
+virtualenv==20.8.1
+virtualenv-clone==0.5.7
