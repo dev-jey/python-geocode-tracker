@@ -25,3 +25,7 @@ def location():
     mymap1 = folium.Map(location=myAddress, zoom_start=12)
     mymap1.save("templates/map.html")
     return render_template('map.html')
+
+
+if __name__ == "__main__":
+    app.run(debug=True)
